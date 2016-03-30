@@ -1,0 +1,44 @@
+
+// Setup
+@import 'bootstrap';
+
+
+$mq-breakpoints: (mobile: 320px, tablet: 640px, desktop: 1024px, widescreen: 1200px, tvscreen: 1920px, mobileLandscape: 480px);
+
+//// Show active breakpoint in top right corner of viewport
+//// $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, widescreen, tvscreen);
+//
+@import "bootstrap-custom";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "base/markup-mixins";
+//
+@import "mq";
+
+// Partials
+@import "page-assets/header";
+@import "page-assets/footer";
+@import 'helper-elements';
+@import 'color';
+
+*, *:before, *:after {
+	
+}
+
+body{
+	color: $stack;
+	background: $white;
+	@include breakpoint($screen-xs-max){
+		font-size: 14px;
+	}
+	-webkit-font-smoothing: antialiased;
+}
+
+// Pages
+@import "pages/croporate";
+@import "pages/architecture";
+@import "pages/one-page";
+@import "pages/blog-full-width";
+
+// Custom
+@import "custom";

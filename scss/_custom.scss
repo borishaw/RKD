@@ -1,0 +1,245 @@
+// Custom Styles
+
+// About
+
+.wedo {
+	position: relative;
+}
+
+.wedo-section {
+	ul {
+		list-style-type: none;
+		padding: 0 20px;
+		> li {
+			border-bottom: 1px solid #E0E0E0;
+			padding: 5px 0;
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+.clients-carousel {
+	.item {
+		text-align: center;
+		padding: 0 10px;
+	}
+	i {
+		color: $main-color;
+		font-size: 32px;
+	}
+	h3 {
+		color: #2a2a2a;
+		padding: 27px 0 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font: 600 13px/20px "Lato", Georgia, "Times New Roman", Times, serif;
+	}
+}
+
+
+.footer-cent {
+	.column2 address {
+		line-height: 26px;
+		padding-left: 15px;
+		text-indent: -8px;
+		i {
+			padding-right: 5px;
+		}
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		li {
+			border-bottom: 1px solid #3E3E3E;
+			padding: 5px 0;
+			&:first-child {
+				padding-top: 0;
+			}
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
+.bottom-box1 {
+	text-align: center;
+}
+.footer-bottom {
+	a {
+		letter-spacing: 1px;
+	}
+	.copyright {
+		float: none;
+		letter-spacing: 1px;
+	}
+}
+
+
+/*------------------------------------------------------------------
+10-10. chef carousel Styles / .chef-carousel
+-------------------------------------------------------------------*/
+.product-carousel{
+	margin: 0 -20px 0 0;
+	@include breakpoint($screen-xs-max){
+		margin: 0 auto;
+		max-width: 280px;
+	}
+}
+.product{
+	overflow: hidden;
+	float: left;
+	  color:$stack;
+	position:relative;
+	text-align: center;
+	padding:0 10px 0;
+	margin:0 0 20px 20px;
+	// width: 370px !important;
+	border:1px solid $gainsboro;
+	  .dark &{
+			border-color: #494949;
+			background: #191919;
+	  }
+	@include breakpoint($screen-md-max){
+		margin:0 0 20px 21px;
+		width: 292px !important;
+	}
+	@include breakpoint($screen-sm-max){
+		width: 335px !important;
+	}
+	@include breakpoint($screen-xs-max){
+		margin: 0 0 20px;
+		width: 280px !important;
+	}
+	&:hover .slide-over{opacity: 1;}
+}
+.img-box{
+	overflow: hidden;
+	margin:0 -10px 24px;
+	img{@extend %img-responsive2}
+}
+h3{
+	  color:$shark;
+	margin:0 0 6px;
+	text-transform: capitalize;
+	font:700 24px/28px $font-playfair;
+	  .dark &{color: $white;}
+}
+.title{
+	display: block;
+	margin: 0 0 25px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.beans-pagination{
+	position: static !important;
+	li{
+		padding:0 2px;
+		@include vertical-align(inline-block, top);
+			&.active a{background: $shark;}
+		a{
+			display: block;
+			text-indent: -9999px;
+			border-radius:50%;
+				 background: $white;
+			border:1px solid $shark;
+			@include square(12px);
+			@include transition (all, 0.4s, ease);
+				 &:hover{
+					  background: $shark;
+					  text-decoration: none;
+				 }
+		}
+	}
+}
+
+.slide-over{
+	@extend %postionreset;
+	text-align: center;
+	opacity: 0;
+    background: $baltic-sea;
+	transition:all 0.6s ease;
+	h3 {
+		color: #fff;
+	}
+}
+.slide-frame{
+	display: table;
+	@include square(100%);
+	padding:20px 10%;
+	.slide-box{
+        color:$white;
+		@include vertical-align(table-cell, middle);
+		font-size: 13px;
+		line-height:24px;
+		h3{
+			margin:0 0 4px;
+			text-transform: capitalize;
+			font:700 24px/28px $font-playfair;
+			a{
+                color:$white;
+				transition:all 0.25s ease;
+				&:hover{text-decoration: none;}
+			}
+		}
+		p{
+			margin: 0 0 20px;
+			line-height: 20px;
+		}
+		.title{
+			display: block;
+			margin: 0 0 20px;
+			text-transform: uppercase;
+			font-weight: 400;
+		}
+		.slide-socials{
+            margin: 0 0 50px;
+            a{color:$white;}
+        }
+	}
+}
+.slide-socials{
+	margin:0;
+	text-align: center;
+	li{
+		@include vertical-align(inline-block, top);
+		float: none;
+		padding: 0 11px;
+	}
+	a{
+        color:$fuscous-gray;
+		font-size: 14px;
+		line-height:12px;
+		@include transition (all, 0.4s, ease);
+		&:hover{text-decoration: none;}
+	}
+}
+
+.product-bestseller {
+    position: absolute;
+    background: #fff;
+    top: 17px;
+    width: 200px;
+    padding: 10px;
+    right: -51px;
+    -moz-transform: rotate(33deg);
+	-webkit-transform: rotate(33deg);
+	-o-transform: rotate(33deg);
+	-ms-transform: rotate(33deg);
+	transform: rotate(33deg);
+    color: #9C600E;
+    font-weight: 900;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.products-container {
+	padding: 50px 0;
+	&:first-of-type{
+		padding-top: 100px;
+	}
+}
