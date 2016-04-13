@@ -21,7 +21,7 @@
 		line-height: 20px;
 	}
 	.holder{
-		padding: 150px 0;
+		padding: 200px 0;
 		@include v-align(frame, middle);
 	}
 	.title{
@@ -133,7 +133,9 @@
 				}
 				&:after{background: $white;}
 			}
-
+			.block {
+				padding-bottom: 63px;
+			}
 		}
 	}
 	img{
@@ -145,6 +147,7 @@
 		@include breakpoint($screen-xs-max){max-height: 9999px;}
 	}
 	.block{
+		@include transition(all 0.4s ease);
 		overflow: hidden;
 		position: relative;
 		padding: 11px 20px 43px 22px;
@@ -316,15 +319,16 @@
 .archi-whyus{
 	color: #7d7d7d;
 	padding: 90px 0 113px;
-	font: 300 italic 15px/24px $font-family-sans-serif;
+	
 	h2{
-		margin: 0 0 17px;
+		margin: 30px 0 17px;
 		text-transform: uppercase;
 		font: 300 32px/40px $font-family-sans-serif;
 		.add{font-weight: 600;}
 	}
-	p{margin: 0 0 29px;}
+	p{margin: 0 0 15px;}
 	.text-box{
+		font: 300 italic 15px/24px $font-family-sans-serif;
 		width: 50%;
 		padding: 10px 0 0;
 		@include vertical-align(inline-block, middle);

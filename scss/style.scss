@@ -1,6 +1,19 @@
 
+@mixin transition($property) {
+-webkit-transition: $property;
+-o-transition: $property;
+transition: $property;
+}
+
+@mixin new-transition($property) {
+-webkit-transition: $property;
+-o-transition: $property;
+transition: $property;
+}
+
 // Setup
 @import 'bootstrap';
+
 
 
 $mq-breakpoints: (mobile: 320px, tablet: 640px, desktop: 1024px, widescreen: 1200px, tvscreen: 1920px, mobileLandscape: 480px);

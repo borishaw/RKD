@@ -1,5 +1,44 @@
 // Custom Styles
 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+// Header
+
+#nav-trigger-close {
+	cursor: pointer;
+	@include transition(all 0.3s ease);
+	display: none;
+	color: #666;
+	padding: 5px 0 0;
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 18px;
+	vertical-align: middle;
+	&:before {
+		content: '\f00d';
+		font-family: 'fontAwesome';
+	}
+	&:hover {
+		color: $main-color;
+	}
+}
+
+
+// home
+
+.frame {
+	h1 {
+		margin-bottom: 30px;
+	}
+}
+
+
 // About
 
 .wedo {
@@ -19,6 +58,151 @@
 		}
 	}
 }
+
+.archi-whyus {
+	.row {
+		margin-bottom: 100px;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	h1 {
+		font-style: normal;
+		color: #222;
+		font: 36px/50px "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	b {
+		font-style: normal;
+		color: $main-color;
+	}
+}
+
+.f-iconbox{
+	z-index: 5;
+	font-size: 14px;
+	line-height: 24px;
+	position: relative;
+	padding-left: 96px;
+	min-height: 80px;
+	margin-bottom: 30px;
+	.icon{
+		left: 0;
+		top: 7px;
+		font-size: 25px;
+		padding: 20px 0 0;
+		text-align: center;
+		border-radius: 50%;
+		position: absolute;
+		@include square(68px);
+		border: 2px solid $main-color;
+		@include transition (all, 0.4s, ease);
+		@include breakpoint($screen-md-max){margin: 0 8px 0 0;}
+	}
+	.title{
+		color: $shark;
+		display: block;
+		margin: 0 0 9px;
+		font-size: 14px;
+		font-weight: 700;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		.dark &{color: $white;}
+	}
+	p{margin: 0;}
+	&.large{
+		font-size: 15px;
+		.title{font-size: 16px;}
+	}
+	&.right{
+		padding-left: 0;
+		text-align: right;
+		padding-right: 96px;
+		.icon{
+			right: 0;
+			left: auto;
+		}
+	}
+	&.light{
+		.icon{
+			color: $gainsboro;
+			border-color: $gainsboro;
+			.dark &{
+				color: $stack;
+				border-color: #494949;
+			}
+		}
+		&:hover .icon{color: $white;}
+	}
+	&.radius-zero .icon{border-radius: 0;}
+	&.noicon{
+		padding-right: 0;
+		.icon{display: none;}
+	}
+	&:hover .icon{color: $white;}
+	&:hover .icon.border-zero{color: inherit;}
+}
+
+.nav-pills {
+	border-right: 1px dashed #C1C1C1;
+	> li {
+		> a {
+			border-radius: 0;
+			padding: 20px 25px;
+			border: none;
+			color: #2a2a2a;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-weight: 700;
+			i {
+				padding-right: 5px;
+			}
+		}
+		&.active {
+			> a, a:hover, a:focus {
+				background-color: transparent;
+				border-color: $main-color;
+				color: $main-color;
+			}
+		}
+	}
+}
+
+.tab-pane {
+	padding-top: 10px;
+	h3 {
+		font-weight: 200;
+		font-size: 32px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px dashed;
+		color: $second-color;
+	}
+	h4 {
+		color: $main-color;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		margin-left: 0;
+		li {
+			font-size: 18px;
+			line-height: 36px;
+			&:before {
+				content: '\f178';
+				font-family: 'fontAwesome';
+				padding-right: 5px;
+				color: $main-color;
+			}
+		}
+	}
+}
+
 
 .clients-carousel {
 	.item {
@@ -91,13 +275,14 @@
 	}
 }
 .product{
+	cursor: pointer;
 	overflow: hidden;
 	float: left;
 	  color:$stack;
 	position:relative;
 	text-align: center;
 	padding:0 10px 0;
-	margin:0 0 20px 20px;
+	margin:0 0 30px 0;
 	// width: 370px !important;
 	border:1px solid $gainsboro;
 	  .dark &{
@@ -106,28 +291,32 @@
 	  }
 	@include breakpoint($screen-md-max){
 		margin:0 0 20px 21px;
-		width: 292px !important;
 	}
 	@include breakpoint($screen-sm-max){
-		width: 335px !important;
 	}
 	@include breakpoint($screen-xs-max){
 		margin: 0 0 20px;
-		width: 280px !important;
 	}
 	&:hover .slide-over{opacity: 1;}
+	
+	h3{
+		color:#fff;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 100%;
+		@include translate(0, -50%);
+		margin:0;
+		padding: 0 20px;
+		text-transform: capitalize;
+		font-weight: 700;
+		text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+	}
 }
 .img-box{
 	overflow: hidden;
-	margin:0 -10px 24px;
+	margin:0 -10px 0;
 	img{@extend %img-responsive2}
-}
-h3{
-	  color:$shark;
-	margin:0 0 6px;
-	text-transform: capitalize;
-	font:700 24px/28px $font-playfair;
-	  .dark &{color: $white;}
 }
 .title{
 	display: block;
@@ -234,7 +423,7 @@ h3{
     color: #9C600E;
     font-weight: 900;
     text-transform: uppercase;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 10px rgba(66, 29, 7, 0.35);
 }
 
 .products-container {
@@ -242,4 +431,164 @@ h3{
 	&:first-of-type{
 		padding-top: 100px;
 	}
+}
+
+
+.remodal {
+	background: transparent;
+	color: #fff;
+	.product-img {
+		margin: 0 0 30px;
+		max-width: 450px;
+	}
+	h1 {
+		color: $main-color;
+		span {
+			display: block;
+			font-size: 24px;
+		}
+	}
+	h3 {
+		color: lighten($second-color,10%);
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 900;
+		letter-spacing: 2px;
+	}
+	h4 {
+		margin-bottom: 20px;
+		a {
+			-webkit-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+			color: darken($second-color, 20%);
+			background-color: $second-color;
+			padding: 5px 10px;
+			font-size: 13px;
+			font-weight: 700;
+			&:hover {
+				text-decoration: none;
+				background-color: darken($second-color,10%);
+			}
+		}
+	}
+	p {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+.product-options {
+	margin: 20px 0 20px;
+	span {
+		padding: 8px 15px;
+		margin-right: 10px;
+		text-transform: capitalize;
+		font-weight: 700;
+		line-height: 42px;
+		&:last-of-type {
+			margin-right: 0;
+		}
+		&:not([class*='veneer-']){
+			color: lighten($second-color,10%);
+			background: #2a2a2a;
+		}
+	}
+}
+
+*[class*='veneer-'] {
+	color: rgba(0, 0, 0, 0.75);
+	background: transparent center no-repeat;
+	background-size: cover;
+}
+
+@each $veneer in redoak, birch, whitemaple, cherry, mohagany, walnut {
+  .veneer-#{$veneer} {
+    background-image: url('../img/veneer/#{$veneer}.jpg');
+  }
+}
+
+.remodal-cancel {
+	border: 2px solid $main-color;
+	background: transparent;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: $main-color;
+	text-transform: uppercase;
+	&:hover, &:focus {
+		background: $main-color;
+		color: #fff;
+	}
+}
+
+
+.remodal-next {
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	 transition: all 0.3s ease;
+	border: none;
+	background: transparent;
+	font-size: 24px;
+	color: $main-color;
+	margin-left: 10px;
+	&:after {
+		font-family: 'fontAwesome';
+		content: '\f105';
+	}
+	&:hover {
+		color: #fff;
+	}
+}
+
+.remodal-previous {
+	@extend .remodal-next;
+	margin-right: 10px;
+	margin-left: 0;
+	&:after {
+		content: '\f104';
+	}
+}
+
+
+
+// RESPONSIVE
+
+@media (max-width: 1060px) {
+	#nav li > a {
+		letter-spacing: 1px;
+	}
+}
+
+@include breakpoint($screen-sm-max){
+	// Tablet
+	
+	#nav-trigger-close {
+		display: block;
+	}	
+	.nav-stacked > li {
+		float: left;
+	}
+	.nav-pills {
+		border-right: none;
+		border-bottom: 1px dashed #C1C1C1;
+		margin-bottom: 10px;
+	}
+}
+
+
+@include breakpoint($screen-xs-max){
+	// phone
+	
+	.archi-columns .more {
+		display: none;
+	}
+	
+	.nav-stacked > li {
+		float: left;
+		> a {
+			letter-spacing: 0px;
+			padding: 5px 15px;
+		}
+	}
+	
 }

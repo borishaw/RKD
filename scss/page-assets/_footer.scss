@@ -47,6 +47,7 @@
 	a{
 		@include transition (all, 0.4s, ease);
 		&:hover{text-decoration: none;}
+		color: #fff;
 	}
 	.logo{
 		float: none;
@@ -1793,7 +1794,7 @@
 			right: 7px;
 			@extend %after;
 			@include size(93px, 36px);
-			background: url(../images/icons/icon2.png);
+			background: url(../img/icon2.png);
 			@include breakpoint($screen-xs-max){display: none;}
 		}
 	}

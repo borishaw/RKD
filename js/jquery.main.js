@@ -29,7 +29,7 @@ jQuery(window).on('load', function() {
 		initGoogleMap();
 	}
 	initFlexSlider();
-	initOwlSlider();
+	//initOwlSlider();
 	initVimeoPlayer();
 	initAudioPlayer();
 	initVideoPlayer();
@@ -230,11 +230,11 @@ function initFlexSlider() {
 }
 
 // OwlSlider init
-function initOwlSlider() {
-	jQuery('#owl-example').owlCarousel({
-		autoPlay: true
-	});
-}
+//function initOwlSlider() {
+//	jQuery('#owl-example').owlCarousel({
+//		autoPlay: true
+//	});
+//}
 // sticky header init
 function initStickyHeader() {
 	var win = jQuery(window),
@@ -785,7 +785,7 @@ function initMobileNav() {
 	jQuery('body').mobileNav({
 		hideOnClickOutside: true,
 		menuActiveClass: 'mainnav-active',
-		menuOpener: '.main-navopener2',
+		menuOpener: '.main-navopener2, .nav-close',
 		menuDrop: '.main-menu'
 	});
 	jQuery('body').mobileNav({

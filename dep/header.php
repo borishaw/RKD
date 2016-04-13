@@ -50,9 +50,8 @@
 	
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" type="text/css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" type="text/css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" type="text/css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.min.css" type="text/css"/>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal.css" type="text/css"/>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal-default-theme.min.css" type="text/css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="page-<?php echo $active; ?>">
@@ -71,7 +70,7 @@
         </div>
     </div>
 	<!-- main container of all the page elements -->
-	<div id="wrapper">
+	<div id="wrapper" class="remodal-bg">
 		<div class="w1">
 			<!-- header of the page -->
 			<header id="header" class="style14">
@@ -89,10 +88,10 @@
 							<nav id="nav">
 								<a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
 								<div class="nav-holder">
+									<div id="nav-trigger-close" class="nav-close"></div>
 									<ul class="list-inline nav-top">
 										<li><a href="<?php echo $navUrl; ?>#wrapper" class="<?php echo $navClass; ?>">Home</a></li>
 										<li><a href="<?php echo $navUrl; ?>#section2" class="<?php echo $navClass; ?>">About RK Doors</a></li>
-										<li><a href="<?php echo $navUrl; ?>#section3" class="<?php echo $navClass; ?>">Why Us</a></li>
 										<li><a href="products.php">Our Products</a></li>
 										<li><a href="<?php echo $navUrl; ?>#section4" class="<?php echo $navClass; ?>">Contact Us</a></li>
 									</ul>

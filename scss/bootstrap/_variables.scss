@@ -349,7 +349,7 @@ $container-md:                 $container-desktop !default;
 // Large screen / wide desktop
 $container-large-desktop:      (1140px + $grid-gutter-width) !default;
 //** For `$screen-lg-min` and up.
-$container-lg:                 $container-large-desktop !default;
+$container-lg:                 $container-large-desktop - $grid-gutter-width !default;
 
 
 //== Navbar
