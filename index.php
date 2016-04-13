@@ -225,60 +225,38 @@ include('dep/header.php');
 					
 				</section>
 				
-				
 
-				<!-- contact form -->
-				<section id="section4" class="contact-form">
-					<div class="container">
-                        <!-- page heading small -->
-                        <header class="page-heading small">
-                            <div class="heading">
-                                <h2 class="white text-capitalize font-medium margin-bottom-10">Request a Quote</h2>
-								<p>Big or small, we handle orders of all sizes. Get in touch with us today for a no obligation quote!</p>
-                            </div>
-                        </header>
-						<!-- email form -->
-						<form class="email-form validate-form" method="post" action="inc/process.php" novalidate="novalidate">
-							<fieldset>
-								<div class="row">
-									<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-2 required-row">
-										<input type="text" class="form-control" placeholder="Name *" name="name">
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 required-row">
-										<input type="email" class="form-control" placeholder="Email *" name="email">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 required-row">
-										<textarea cols="30" class="form-control" rows="10" placeholder="Brief Outline *" name="outline"></textarea>
-									</div>
-								</div>
-								<div class="row text-center">
-									<div class="col-xs-12">
-										<button id="submit" class="btn-submit" type="submit">SUBMIT</button>
-									</div>
-								</div>
-							</fieldset>
-						</form>
-                        <div class="done-massage">
-                            <div class="holder"><strong>Thank you!</strong> We have received your message. </div>
-                        </div>
-					</div>
-					<div class="stretch">
-						<img src="img/bg-05.jpg" alt="Background image of a door">
-					</div>
-				</section>
-				<!-- map -->
-				<section id="map" class="map">
-					
-				</section>
-			</main>
-			
-			<?php include('dep/footer.php'); ?>
-			
-			<script>
+    <!-- contact form -->
+    <section id="section4" class="contact-form">
+        <div class="container">
+            <!-- page heading small -->
+            <header class="page-heading small">
+                <div class="heading">
+                    <h2 class="white text-capitalize font-medium margin-bottom-10">Request a Quote</h2>
+                    <p>Big or small, we handle orders of all sizes. Get in touch with us today for a no obligation
+                        quote!</p>
+                </div>
+            </header>
 
-			</script>
-	
+            <?php include 'dep/contact-form.php'?>
+            
+        </div>
+        <div class="stretch">
+            <img src="img/bg-02.jpg" alt="Background image of a door">
+        </div>
+    </section>
+    <!-- map -->
+    <section id="map" class="map">
+
+    </section>
+</main>
+
+<?php include('dep/footer.php'); ?>
+
+<script>
+
+</script>
+
+
 </body>
 </html>

@@ -53,6 +53,14 @@
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal.css" type="text/css"/>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal-default-theme.min.css" type="text/css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--scripts needed for ReCaptcha and Validation-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+	<!--end of script-->
+	
 </head>
 <body class="page-<?php echo $active; ?>">
 	<!-- Page pre loader -->

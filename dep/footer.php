@@ -22,7 +22,7 @@
 				<div class="footer-cent bg-shark">
 					<div class="container">
 						<div class="row">
-							<div class="col-xs-12 col-sm-6 col-md-3 info-box column1">
+							<div class="col-xs-12 col-sm-6 col-md-6 info-box column1">
 								<!-- f contact info2 -->
 								<div class="f-contact-info2">
 									<h5>Contact Information</h5>
@@ -37,35 +37,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3 column2">
+							<div class="col-xs-12 col-sm-6 col-md-6 column2">
 								<!-- f video box -->
 								<div>
 									<h5>Address</h5>
 									<address>
-									<i class="fa fa-map-marker"></i> 71 Adesso Drive<br/>Vaughan, Ontario<br/>Canada L4K 3C7
+									<i class="fa fa-map-marker"></i> 71 Adesso Drive, Vaughan, Ontario, Canada L4K 3C7
 									</address>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3 column3">
-								<!-- f video box -->
-								<div>
-									<h5>Doors</h5>
-									<ul>
-										<li><a href="#">Series 6000</a></li>
-										<li><a href="#">Series 7000</a></li>
-										<li><a href="#">View More</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3 column4">
-								<!-- f video box -->
-								<div>
-									<h5>Frames</h5>
-									<ul>
-										<li><a href="#">Casing Frame</a></li>
-										<li><a href="#">Reveal Frame</a></li>
-										<li><a href="#">Wrap Around Frame</a></li>
-									</ul>
 								</div>
 							</div>
 						</div>
@@ -89,7 +67,7 @@
 	</div>
 	
 	<!-- Scripts -->
-	<script   src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+	
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.main.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
