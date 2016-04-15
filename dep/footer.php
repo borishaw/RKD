@@ -1,3 +1,13 @@
+<div class="remodal" data-remodal-id="modal-fax">
+	<div class="remodal-content">
+		<p>Fax</p>
+		<h1>905.660.3693</h1>
+		<br>
+		<button data-remodal-action="cancel" class="remodal-cancel">Close</button>
+		
+	</div>
+ </div>
+
 <!-- footer of the page -->
 			<footer id="footer" class="style14">
 				<!-- socialize holder -->
@@ -13,38 +23,11 @@
 								<ul class="list-inline footer-social">
 									<li class="facebook"><a href="https://www.facebook.com/pages/RK-Doors/220845597944086?sk=wall" target="_blank"><i class="fa fa-facebook"></i></a></li>
 									<li class="twitter"><a href="http://twitter.com/rkdoors/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									<li class="address"><a href="https://goo.gl/maps/t6iz3yzWa6r" target="_blank"><i class="fa fa-map-signs"></i></a></li>
+									<li class="email"><a href="mailto:info@rkdoors.ca" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
+									<li class="phone"><a href="tel:+14164798323" target="_blank"><i class="fa fa-phone"></i></a></li>
+									<li class="fax"><a href="" target="_blank" data-remodal-target="modal-fax"><i class="fa fa-print"></i></a></li>
 								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- footer cent -->
-				<div class="footer-cent bg-shark">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12 col-sm-6 col-md-6 info-box column1">
-								<!-- f contact info2 -->
-								<div class="f-contact-info2">
-									<h5>Contact Information</h5>
-									<div class="mail-box2">
-										<span class="mail-box"><i class="fa fa-envelope-o"></i> <a href="mailto:info@rkdoors.ca" class="email"> info@rkdoors.ca</a></span>
-									</div>
-									<div class="tel-holder">
-										<span class="tel-box"><i class="fa fa-phone"></i> <a href="tel:+14164798323" class="tel">416.479.8323</a></span>
-									</div>
-									<div class="mail-box2">
-										<span class="mail-box"><i class="fa fa-print"></i> 905.660.3693</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-6 column2">
-								<!-- f video box -->
-								<div>
-									<h5>Address</h5>
-									<address>
-									<i class="fa fa-map-marker"></i> 71 Adesso Drive, Vaughan, Ontario, Canada L4K 3C7
-									</address>
-								</div>
 							</div>
 						</div>
 					</div>

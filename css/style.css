@@ -9125,7 +9125,11 @@ a:focus {
 
 #nav .nav-top > li {
   padding: 0;
-  margin: 0 0 0 22px;
+  margin: 0 0 0 40px;
+}
+
+#nav .nav-top > li:first-child {
+  margin-left: 0;
 }
 
 @media only screen and (max-width: 1219px) {
@@ -26163,6 +26167,15 @@ body {
 
 .remodal-previous:after {
   content: '\f104';
+}
+
+#contact-form-recaptcha {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#contact-form-recaptcha > div > div {
+  display: inline-block;
 }
 
 @media (max-width: 1060px) {

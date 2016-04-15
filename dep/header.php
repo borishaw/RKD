@@ -99,9 +99,9 @@
 									<div id="nav-trigger-close" class="nav-close"></div>
 									<ul class="list-inline nav-top">
 										<li><a href="<?php echo $navUrl; ?>#wrapper" class="<?php echo $navClass; ?>">Home</a></li>
-										<li><a href="<?php echo $navUrl; ?>#section2" class="<?php echo $navClass; ?>">About RK Doors</a></li>
-										<li><a href="products.php">Our Products</a></li>
-										<li><a href="<?php echo $navUrl; ?>#section4" class="<?php echo $navClass; ?>">Contact Us</a></li>
+										<li><a href="<?php echo $navUrl; ?>#section2" class="<?php echo $navClass; ?>">About</a></li>
+										<li><a href="products.php">Products</a></li>
+										<li><a href="<?php echo $navUrl; ?>#section4" class="<?php echo $navClass; ?>">Contact</a></li>
 									</ul>
 								</div>
 							</nav>
