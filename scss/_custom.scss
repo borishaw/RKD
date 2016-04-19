@@ -250,6 +250,22 @@
 	}
 }
 
+.contact-list {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 0;
+	text-align: left;
+	font-size: 18px;
+	line-height: 34px;
+	i {
+		font-size: 24px;
+		padding-right: 10px;
+	}
+	a:hover {
+		color: $main-color !important;
+	}
+}
+
 .bottom-box1 {
 	text-align: center;
 }

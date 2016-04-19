@@ -17,6 +17,8 @@
 	<meta charset="utf-8">
 	<!-- set the viewport width and initial-scale on mobile devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="RK Doors has over a century of combined experience in the architectural woodwork industry, and is committed to the highest standards of quality and workmanship.">
+	<meta name="keywords" content="doors, woodwork, architecture, finishes, wood, products, laminate, veneer">
 	<!-- set the title of your site -->
 	<title>RK Doors | Architectural Wood Doors &amp; Frames</title>
 	<!--  Favicon -->
@@ -100,6 +102,7 @@
 									<ul class="list-inline nav-top">
 										<li><a href="<?php echo $navUrl; ?>#wrapper" class="<?php echo $navClass; ?>">Home</a></li>
 										<li><a href="<?php echo $navUrl; ?>#section2" class="<?php echo $navClass; ?>">About</a></li>
+										<li><a href="<?php echo $navUrl; ?>#whyus" class="<?php echo $navClass; ?>">Why Us</a></li>
 										<li><a href="products.php">Products</a></li>
 										<li><a href="<?php echo $navUrl; ?>#section4" class="<?php echo $navClass; ?>">Contact</a></li>
 									</ul>

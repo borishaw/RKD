@@ -20,13 +20,9 @@
 							<div class="col-xs-12">
 								<strong class="title">Connect with us</strong>
 								<!-- footer-social -->
-								<ul class="list-inline footer-social">
-									<li class="facebook"><a href="https://www.facebook.com/pages/RK-Doors/220845597944086?sk=wall" target="_blank"><i class="fa fa-facebook"></i></a></li>
-									<li class="twitter"><a href="http://twitter.com/rkdoors/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-									<li class="address"><a href="https://goo.gl/maps/t6iz3yzWa6r" target="_blank"><i class="fa fa-map-signs"></i></a></li>
-									<li class="email"><a href="mailto:info@rkdoors.ca" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
-									<li class="phone"><a href="tel:+14164798323" target="_blank"><i class="fa fa-phone"></i></a></li>
-									<li class="fax"><a href="" target="_blank" data-remodal-target="modal-fax"><i class="fa fa-print"></i></a></li>
+								<ul class="contact-list">
+									<li><a href="https://goo.gl/maps/t6iz3yzWa6r" target="_blank"><i class="fa fa-map-signs"></i> 71 Adesso Drive, Vaughan, Ontario, Canada L4K 3C7</a></li>
+									<li><a href="tel:+14164798323" target="_blank"><i class="fa fa-phone"></i> 416-479-8323</a></li>
 								</ul>
 							</div>
 						</div>

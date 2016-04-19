@@ -25788,6 +25788,24 @@ body {
   padding-bottom: 0;
 }
 
+.contact-list {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.contact-list i {
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.contact-list a:hover {
+  color: #248AB9 !important;
+}
+
 .bottom-box1 {
   text-align: center;
 }

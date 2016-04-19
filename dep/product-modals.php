@@ -49,6 +49,12 @@
 		<p>
 		  We offer 3-ply or 5-ply doors for fire rated applications. We use a non-combustible composite mineral core for our fire-rated doors. Our fire-rated doors comply with Warnock Hersey manufacturing specifications and guidelines for fire-rated doors. These doors are for interior use only and face finishes offered are similar to that of series 7000 doors.  
 		</p>
+		<div class="product-options">
+			<h3>Veneer</h3>
+			<span class="veneer-redoak">Red Oak</span> <span class="veneer-birch">Birch</span> <span class="veneer-whitemaple">White Maple</span> <span class="veneer-cherry">Cherry</span> <span class="veneer-mohagany">Mohagany</span> <span class="veneer-walnut">Walnut</span> <span>Custom</span>
+			<h3>Other</h3>
+			<span>High-pressure plastic laminate</span>
+		</div>
 		<br>
 		<button class="remodal-previous" data-remodal-target="door-7000"></button>
 		<button data-remodal-action="cancel" class="remodal-cancel">Close</button>
@@ -116,6 +122,12 @@
 		<p>
 		  Architectural high-quality 5-ply interior door. Our series 7000 doors are constructed with extra-wide stiles around the core for special hardware consideration. Face finishes offered are similar to that of series 7000 doors
 		</p>
+		<div class="product-options">
+			<h3>Veneer</h3>
+			<span class="veneer-redoak">Red Oak</span> <span class="veneer-birch">Birch</span> <span class="veneer-whitemaple">White Maple</span> <span class="veneer-cherry">Cherry</span> <span class="veneer-mohagany">Mohagany</span> <span class="veneer-walnut">Walnut</span> <span>Custom</span>
+			<h3>Other</h3>
+			<span>High-pressure plastic laminate</span>
+		</div>
 		<br>
 		<button class="remodal-previous" data-remodal-target="door-stock-6000-7000"></button>
 		<button data-remodal-action="cancel" class="remodal-cancel">Close</button>
@@ -132,6 +144,12 @@
 		<p>
 		  Architectural high-quality 5-ply door, recommended for exterior applications. Face finishes offered are similar to that of series 7000 doors (plastic laminate not recommended for exterior). 
 		</p>
+		<div class="product-options">
+			<h3>Veneer</h3>
+			<span class="veneer-redoak">Red Oak</span> <span class="veneer-birch">Birch</span> <span class="veneer-whitemaple">White Maple</span> <span class="veneer-cherry">Cherry</span> <span class="veneer-mohagany">Mohagany</span> <span class="veneer-walnut">Walnut</span> <span>Custom</span>
+			<h3>Other</h3>
+			<span>High-pressure plastic laminate</span>
+		</div>
 		<br>
 		<button class="remodal-previous" data-remodal-target="door-8000"></button>
 		<button data-remodal-action="cancel" class="remodal-cancel">Close</button>

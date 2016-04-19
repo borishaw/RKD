@@ -4,7 +4,7 @@ include('dep/header.php');
 ?>
 			<main id="main" role="main">
                 <!-- page banner -->
-				<header class="page-banner small grey" style="background-image:url('img/bg-06.jpg');">
+				<header class="page-banner small grey" style="background-image:url('img/bg-08.jpg');">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">

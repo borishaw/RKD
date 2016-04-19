@@ -92,7 +92,7 @@ include('dep/header.php');
 						</div>
 						
 						<!-- page heading small -->
-						<header class="page-heading dark-style">
+						<header id="whyus" class="page-heading dark-style">
 								<h2 class="heading6 lime text-capitalize font-medium">Why Us?</h2>
 						</header>
 						
@@ -242,7 +242,7 @@ include('dep/header.php');
             
         </div>
         <div class="stretch">
-            <img src="img/bg-02.jpg" alt="Background image of a door">
+            <img src="img/bg-05.jpg" alt="Background image of a door">
         </div>
     </section>
     <!-- map -->
